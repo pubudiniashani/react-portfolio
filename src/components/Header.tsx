@@ -2,7 +2,7 @@ import '../assets/style/Header.css'
 
 export const Header = () => {
     return (
-        <header className="w-screen fixed top-0 left-0 h-[100px] bg-[#474448] backdrop-blur-lg shadow-lg z-50 border-b border-white/20">
+        <header className="w-screen fixed top-0 left-0 h-[80px] bg-[#0a0a23] backdrop-blur-lg shadow-lg z-50 border-b border-white/20">
             <nav className="h-full flex items-center justify-center px-10 text-white">
                 <ul className="flex space-x-8 text-lg font-medium">
                     <li className="relative group">
