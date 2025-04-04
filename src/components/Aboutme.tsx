@@ -18,7 +18,7 @@ export const AboutMe = () => {
 
                     <div
                         className="text-center md:text-center max-w-2xl mx-auto ">
-                        <h2 className="text-4xl font-semibold text-gray-600 mb-4">
+                        <h2 className="text-4xl font-semibold text-gray-300 mb-4">
                             Hi There !! <span role="img" aria-label="waving hand">👋</span>
                         </h2>
                         <p className="text-lg text-gray-700 mx-auto md:text-left max-w-xl leading-snug">
