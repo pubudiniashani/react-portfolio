@@ -21,8 +21,8 @@ export const AboutMe = () => {
                         <h2 className="text-4xl font-semibold text-gray-300 mb-4">
                             Hi There !! <span role="img" aria-label="waving hand">👋</span>
                         </h2>
-                        <p className="text-lg text-gray-700 mx-auto md:text-left max-w-xl leading-snug">
-                            I am a passionate frontend developer.
+                        <p className="text-lg text-white mx-auto md:text-left max-w-xl leading-loose">
+                            I am a passionate software engineering student.
                             I am eager for learning always and growing as a developer. I enjoy exploring new technologies,
                             and constantly improving my skills to build better user experiences.
                         </p>
