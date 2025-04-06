@@ -10,7 +10,7 @@ export const Projects = () => {
     const projects = [
         {
             title: "Green Shadow (Pvt) Ltd",
-            description: "The crop monitoring system developed using Java , Spring Boot , MySQL , JS and JWT authentication. The main  features of this system are managing crops,fields,staff,vehicles etc.",
+            description: "The crop monitoring system managing crops,fields,staff,vehicles developed using Java , Spring Boot , MySQL , JS and JWT authentication.",
             image: image1, // Unique Image for Project 1
             link: "#",
             github: "https://github.com/pubudiniashani/green-shadow-react",
@@ -23,7 +23,7 @@ export const Projects = () => {
         },
         {
             title: "Book Store Management System",
-            description: "Developed a desktop application for managing a bookstore using Java and JavaFX. The application handles books, customers, staff, and orders.",
+            description: "Developed a desktop application for managing a bookstore using Java and JavaFX. ",
             image: image3, // Unique Image for Project 3
             github:"https://github.com/pubudiniashani/bookshop",
         },
