@@ -1,7 +1,10 @@
 // src/components/Skills.tsx
 
+import { FaJava } from 'react-icons/fa'; // Java icon
+import { FaNodeJs } from 'react-icons/fa'; // Node.js icon
+
+
 import {
-    // SiJava,
     SiReact,
     SiHtml5,
     SiCss3,
@@ -11,15 +14,14 @@ import {
     SiMysql,
     SiGit,
     SiPostman,
-    // SiNodejs,        // Node.js icon
-    SiTypescript,    // TypeScript icon
-    SiExpress,       // Express.js icon
+    SiTypescript,
+    SiExpress,
     SiPython,
 
 } from "react-icons/si";
 
 const skills = [
-    //{ icon: <SiJava />, label: "Java", color: "#E44D26" },
+    { icon: <FaJava />, label: "Java", color: "#E44D26" },
     { icon: <SiReact />, label: "React", color: "#61DAFB" },
     { icon: <SiHtml5 />, label: "HTML", color: "#E34F26" },
     { icon: <SiCss3 />, label: "CSS", color: "#1572B6" },
@@ -29,7 +31,7 @@ const skills = [
     { icon: <SiMysql />, label: "MySQL", color: "#4479A1" },
     { icon: <SiGit />, label: "Git", color: "#F05032" },
     { icon: <SiPostman />, label: "Postman", color: "#FF6C37" },
-    //{ icon: <SiNodejs />, label: "Node.js", color: "#339933" },  // Node.js icon with color
+    { icon: <FaNodeJs />, label: "Node.js", color: "#339933" },  // Node.js icon with color
     { icon: <SiTypescript />, label: "TypeScript", color: "#3178C6" },  // TypeScript icon with color
     { icon: <SiExpress />, label: "Express.js", color: "white" },  // Express.js icon with color
     { icon: <SiPython />, label: "Python", color: "#306998" },  // Python icon with color
