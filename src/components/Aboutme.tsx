@@ -21,13 +21,21 @@ export const AboutMe = () => {
                         <h2 className="text-4xl font-semibold text-gray-300 mb-4 animate-bounce">
                             Hi There !! <span role="img" aria-label="waving hand">👋</span>
                         </h2>
-                        <p className="text-lg text-white mx-auto md:text-left max-w-xl leading-loose">
+                        <p className=" text-lg text-white mx-auto md:text-left max-w-xl leading-loose">
                             I am a passionate software engineering student.
-                            I am eager for learning always and growing as a developer. I enjoy exploring new technologies,
+                            I am eager for learning always and growing as a developer. I enjoy exploring new
+                            technologies,
                             and constantly improving my skills to build better user experiences.
                         </p>
                     </div>
 
+                </div>
+
+                <div className="flex justify-center mt-8">
+                    <button
+                        className="w-40 py-3 bg-[#4c8fc2] text-white rounded-2xl hover:bg-gray-400 transition transform -translate-x-8">
+                        Download Resume
+                    </button>
                 </div>
             </div>
         </section>
