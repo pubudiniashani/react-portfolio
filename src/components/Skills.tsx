@@ -3,7 +3,6 @@
 import { FaJava } from 'react-icons/fa'; // Java icon
 import { FaNodeJs } from 'react-icons/fa'; // Node.js icon
 
-
 import {
     SiReact,
     SiHtml5,
@@ -40,8 +39,8 @@ const skills = [
 
 export const Skills = () => {
     return (
-        <section id="skills" className="px-6 py-10  text-center">
-            <h2 className="text-3xl font-bold mb-8 text-gray-200">Skills</h2>
+        <section id="skills" className="px-6 py-10 text-center">
+            <h2 className="text-4xl font-bold text-center mt-14 mb-20 text-gray-400">Skills</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 justify-items-center">
                 {skills.map((skill, index) => (
                     <div
