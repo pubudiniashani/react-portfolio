@@ -16,6 +16,7 @@ import {
     SiTypescript,
     SiExpress,
     SiPython,
+    SiGithub
 
 } from "react-icons/si";
 
@@ -34,6 +35,7 @@ const skills = [
     { icon: <SiTypescript />, label: "TypeScript", color: "#3178C6" },  // TypeScript icon with color
     { icon: <SiExpress />, label: "Express.js", color: "white" },  // Express.js icon with color
     { icon: <SiPython />, label: "Python", color: "#306998" },  // Python icon with color
+    {icon: <SiGithub />, label: "Github", color: "#6C757D" },
 ];
 
 
@@ -45,7 +47,9 @@ export const Skills = () => {
                 {skills.map((skill, index) => (
                     <div
                         key={index}
-                        className="w-16 h-16 sm:w-24 sm:h-24 flex items-center justify-center rounded-full border-2 border-white bg-transparent shadow-sm transition duration-300 hover:shadow-2xl hover:bg-gradient-to-r hover:from-[#0077b6] hover:to-[#caf0f8]"
+                        className="w-16 h-16 sm:w-24 sm:h-24 flex items-center justify-center rounded-full  border-white
+                        bg-transparent shadow-sm transition duration-300 hover:shadow-2xl hover:bg-gradient-to-r border-1
+                        animate-float"
                         title={skill.label}
                     >
                         <div style={{color: skill.color}} className="text-4xl">
