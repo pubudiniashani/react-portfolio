@@ -42,7 +42,7 @@ const skills = [
 export const Skills = () => {
     return (
         <section id="skills" className="px-6 py-10 text-center">
-            <h2 className="text-4xl font-bold text-center mt-14 mb-20 text-gray-400">Skills</h2>
+            <h2 className="text-4xl font-bold text-center mt-14 mb-20 text-[#cfd8dc]">Skills</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 justify-items-center">
                 {skills.map((skill, index) => (
                     <div

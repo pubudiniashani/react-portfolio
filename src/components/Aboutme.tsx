@@ -11,14 +11,14 @@ export const AboutMe = () => {
                         <img
                             src={myImage}
                             alt="Profile"
-                            className="w-full h-full object-cover rounded-lg shadow-lg"
+                            className="w-full h-full object-cover  rounded-full shadow-lg"
                         />
                     </div>
 
 
                     <div
                         className="text-center md:text-center max-w-2xl mx-auto ">
-                        <h2 className="text-4xl font-semibold text-gray-300 mb-4 animate-bounce">
+                        <h2 className="text-4xl font-semibold text-[#bdbdbd] mb-4 animate-bounce">
                             Hi There !! <span role="img" aria-label="waving hand">👋</span>
                         </h2>
                         <p className=" text-lg text-white mx-auto md:text-left max-w-xl leading-loose">

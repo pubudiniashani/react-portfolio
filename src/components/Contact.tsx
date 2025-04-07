@@ -4,12 +4,12 @@ import { FaLinkedin } from 'react-icons/fa';
 export const Contact = () => {
     return (
         <section id="contact" className="py-20 px-6 ">
-            <h2 className="text-4xl font-bold text-center mt-14 mb-20 text-gray-400">Contact </h2>
+            <h2 className="text-4xl font-bold text-center mt-14 mb-20 text-[#b0bec5]">Contact </h2>
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
                 {/* Left side content */}
                 <div className="space-y-6">
-                    <h2 className="text-3xl font-bold text-gray-800">Get in Touch</h2>
-                    <p className="text-lg text-gray-600">
+                    <h2 className="text-3xl font-bold text-[#90a4ae]">Get in Touch</h2>
+                    <p className="text-lg text-[#78909c]">
                         Feel free to reach out to me !!
                     </p>
 

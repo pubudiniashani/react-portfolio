@@ -51,7 +51,7 @@ export const Projects = () => {
         <section id="projects" className="py-20 ">
             <div className="container mx-auto px-6 lg:px-12">
                 {/* Section Header */}
-                <h2 className="text-4xl font-bold text-center text-gray-400 mb-12">
+                <h2 className="text-4xl font-bold text-center text-[#cfd8dc] mb-12">
                     My Projects
                 </h2>
 
