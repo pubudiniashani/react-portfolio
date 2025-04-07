@@ -32,11 +32,15 @@ export const AboutMe = () => {
                 </div>
 
                 <div className="flex justify-center mt-8">
-                    <button
-                        className="w-40 py-3 bg-[#4c8fc2] text-white rounded-2xl hover:bg-gray-400 transition transform -translate-x-8">
+                    <a
+                        href="https://drive.google.com/file/d/1Cl8omXaUIwLkXXu27WOdP4Y-XGPBkYla/view?usp=sharing"
+                        download
+                        className="w-40 py-3 bg-[#4c8fc2] text-white rounded-2xl hover:bg-gray-400 transition transform -translate-x-8 text-center inline-block"
+                    >
                         Download Resume
-                    </button>
+                    </a>
                 </div>
+
             </div>
         </section>
     );
